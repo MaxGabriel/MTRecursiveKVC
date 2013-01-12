@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5028582916A20681007D6980 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582816A20681007D6980 /* UIKit.framework */; };
+		5028582B16A20681007D6980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582A16A20681007D6980 /* Foundation.framework */; };
+		5028582D16A20681007D6980 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582C16A20681007D6980 /* CoreGraphics.framework */; };
+		5028583316A20681007D6980 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5028583116A20681007D6980 /* InfoPlist.strings */; };
+		5028583516A20681007D6980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028583416A20681007D6980 /* main.m */; };
+		5028583916A20681007D6980 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028583816A20681007D6980 /* AppDelegate.m */; };
+		5028583B16A20681007D6980 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5028583A16A20681007D6980 /* Default.png */; };
+		5028583D16A20681007D6980 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5028583C16A20681007D6980 /* Default@2x.png */; };
+		5028583F16A20681007D6980 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5028583E16A20681007D6980 /* Default-568h@2x.png */; };
+		5028584216A20681007D6980 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5028584016A20681007D6980 /* MainStoryboard.storyboard */; };
+		5028584516A20681007D6980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028584416A20681007D6980 /* ViewController.m */; };
+		5028584D16A20681007D6980 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028584C16A20681007D6980 /* SenTestingKit.framework */; };
+		5028584E16A20681007D6980 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582816A20681007D6980 /* UIKit.framework */; };
+		5028584F16A20681007D6980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582A16A20681007D6980 /* Foundation.framework */; };
+		5028585716A20681007D6980 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5028585516A20681007D6980 /* InfoPlist.strings */; };
+		5028585A16A20681007D6980 /* MTRecursiveKVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028585916A20681007D6980 /* MTRecursiveKVCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5028585016A20681007D6980 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5028581B16A20681007D6980 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5028582316A20681007D6980;
+			remoteInfo = MTRecursiveKVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5028582416A20681007D6980 /* MTRecursiveKVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRecursiveKVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5028582816A20681007D6980 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5028582A16A20681007D6980 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5028582C16A20681007D6980 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5028583016A20681007D6980 /* MTRecursiveKVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTRecursiveKVC-Info.plist"; sourceTree = "<group>"; };
+		5028583216A20681007D6980 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5028583416A20681007D6980 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5028583616A20681007D6980 /* MTRecursiveKVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTRecursiveKVC-Prefix.pch"; sourceTree = "<group>"; };
+		5028583716A20681007D6980 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5028583816A20681007D6980 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5028583A16A20681007D6980 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5028583C16A20681007D6980 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5028583E16A20681007D6980 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5028584116A20681007D6980 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5028584316A20681007D6980 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5028584416A20681007D6980 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5028584B16A20681007D6980 /* MTRecursiveKVCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRecursiveKVCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5028584C16A20681007D6980 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5028585416A20681007D6980 /* MTRecursiveKVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTRecursiveKVCTests-Info.plist"; sourceTree = "<group>"; };
+		5028585616A20681007D6980 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5028585816A20681007D6980 /* MTRecursiveKVCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRecursiveKVCTests.h; sourceTree = "<group>"; };
+		5028585916A20681007D6980 /* MTRecursiveKVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRecursiveKVCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5028582116A20681007D6980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028582916A20681007D6980 /* UIKit.framework in Frameworks */,
+				5028582B16A20681007D6980 /* Foundation.framework in Frameworks */,
+				5028582D16A20681007D6980 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028584716A20681007D6980 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028584D16A20681007D6980 /* SenTestingKit.framework in Frameworks */,
+				5028584E16A20681007D6980 /* UIKit.framework in Frameworks */,
+				5028584F16A20681007D6980 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5028581916A20681007D6980 = {
+			isa = PBXGroup;
+			children = (
+				5028582E16A20681007D6980 /* MTRecursiveKVC */,
+				5028585216A20681007D6980 /* MTRecursiveKVCTests */,
+				5028582716A20681007D6980 /* Frameworks */,
+				5028582516A20681007D6980 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5028582516A20681007D6980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5028582416A20681007D6980 /* MTRecursiveKVC.app */,
+				5028584B16A20681007D6980 /* MTRecursiveKVCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5028582716A20681007D6980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5028582816A20681007D6980 /* UIKit.framework */,
+				5028582A16A20681007D6980 /* Foundation.framework */,
+				5028582C16A20681007D6980 /* CoreGraphics.framework */,
+				5028584C16A20681007D6980 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5028582E16A20681007D6980 /* MTRecursiveKVC */ = {
+			isa = PBXGroup;
+			children = (
+				5028583716A20681007D6980 /* AppDelegate.h */,
+				5028583816A20681007D6980 /* AppDelegate.m */,
+				5028584016A20681007D6980 /* MainStoryboard.storyboard */,
+				5028584316A20681007D6980 /* ViewController.h */,
+				5028584416A20681007D6980 /* ViewController.m */,
+				5028582F16A20681007D6980 /* Supporting Files */,
+			);
+			path = MTRecursiveKVC;
+			sourceTree = "<group>";
+		};
+		5028582F16A20681007D6980 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5028583016A20681007D6980 /* MTRecursiveKVC-Info.plist */,
+				5028583116A20681007D6980 /* InfoPlist.strings */,
+				5028583416A20681007D6980 /* main.m */,
+				5028583616A20681007D6980 /* MTRecursiveKVC-Prefix.pch */,
+				5028583A16A20681007D6980 /* Default.png */,
+				5028583C16A20681007D6980 /* Default@2x.png */,
+				5028583E16A20681007D6980 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5028585216A20681007D6980 /* MTRecursiveKVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5028585816A20681007D6980 /* MTRecursiveKVCTests.h */,
+				5028585916A20681007D6980 /* MTRecursiveKVCTests.m */,
+				5028585316A20681007D6980 /* Supporting Files */,
+			);
+			path = MTRecursiveKVCTests;
+			sourceTree = "<group>";
+		};
+		5028585316A20681007D6980 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5028585416A20681007D6980 /* MTRecursiveKVCTests-Info.plist */,
+				5028585516A20681007D6980 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5028582316A20681007D6980 /* MTRecursiveKVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5028585D16A20681007D6980 /* Build configuration list for PBXNativeTarget "MTRecursiveKVC" */;
+			buildPhases = (
+				5028582016A20681007D6980 /* Sources */,
+				5028582116A20681007D6980 /* Frameworks */,
+				5028582216A20681007D6980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTRecursiveKVC;
+			productName = MTRecursiveKVC;
+			productReference = 5028582416A20681007D6980 /* MTRecursiveKVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5028584A16A20681007D6980 /* MTRecursiveKVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5028586016A20681007D6980 /* Build configuration list for PBXNativeTarget "MTRecursiveKVCTests" */;
+			buildPhases = (
+				5028584616A20681007D6980 /* Sources */,
+				5028584716A20681007D6980 /* Frameworks */,
+				5028584816A20681007D6980 /* Resources */,
+				5028584916A20681007D6980 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5028585116A20681007D6980 /* PBXTargetDependency */,
+			);
+			name = MTRecursiveKVCTests;
+			productName = MTRecursiveKVCTests;
+			productReference = 5028584B16A20681007D6980 /* MTRecursiveKVCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5028581B16A20681007D6980 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Max;
+			};
+			buildConfigurationList = 5028581E16A20681007D6980 /* Build configuration list for PBXProject "MTRecursiveKVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5028581916A20681007D6980;
+			productRefGroup = 5028582516A20681007D6980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5028582316A20681007D6980 /* MTRecursiveKVC */,
+				5028584A16A20681007D6980 /* MTRecursiveKVCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5028582216A20681007D6980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028583316A20681007D6980 /* InfoPlist.strings in Resources */,
+				5028583B16A20681007D6980 /* Default.png in Resources */,
+				5028583D16A20681007D6980 /* Default@2x.png in Resources */,
+				5028583F16A20681007D6980 /* Default-568h@2x.png in Resources */,
+				5028584216A20681007D6980 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028584816A20681007D6980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028585716A20681007D6980 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5028584916A20681007D6980 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5028582016A20681007D6980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028583516A20681007D6980 /* main.m in Sources */,
+				5028583916A20681007D6980 /* AppDelegate.m in Sources */,
+				5028584516A20681007D6980 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5028584616A20681007D6980 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028585A16A20681007D6980 /* MTRecursiveKVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5028585116A20681007D6980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5028582316A20681007D6980 /* MTRecursiveKVC */;
+			targetProxy = 5028585016A20681007D6980 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5028583116A20681007D6980 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5028583216A20681007D6980 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5028584016A20681007D6980 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5028584116A20681007D6980 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5028585516A20681007D6980 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5028585616A20681007D6980 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5028585B16A20681007D6980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5028585C16A20681007D6980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5028585E16A20681007D6980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTRecursiveKVC/MTRecursiveKVC-Prefix.pch";
+				INFOPLIST_FILE = "MTRecursiveKVC/MTRecursiveKVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5028585F16A20681007D6980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTRecursiveKVC/MTRecursiveKVC-Prefix.pch";
+				INFOPLIST_FILE = "MTRecursiveKVC/MTRecursiveKVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5028586116A20681007D6980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTRecursiveKVC.app/MTRecursiveKVC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTRecursiveKVC/MTRecursiveKVC-Prefix.pch";
+				INFOPLIST_FILE = "MTRecursiveKVCTests/MTRecursiveKVCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5028586216A20681007D6980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTRecursiveKVC.app/MTRecursiveKVC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTRecursiveKVC/MTRecursiveKVC-Prefix.pch";
+				INFOPLIST_FILE = "MTRecursiveKVCTests/MTRecursiveKVCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5028581E16A20681007D6980 /* Build configuration list for PBXProject "MTRecursiveKVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028585B16A20681007D6980 /* Debug */,
+				5028585C16A20681007D6980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5028585D16A20681007D6980 /* Build configuration list for PBXNativeTarget "MTRecursiveKVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028585E16A20681007D6980 /* Debug */,
+				5028585F16A20681007D6980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5028586016A20681007D6980 /* Build configuration list for PBXNativeTarget "MTRecursiveKVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5028586116A20681007D6980 /* Debug */,
+				5028586216A20681007D6980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5028581B16A20681007D6980 /* Project object */;
+}
