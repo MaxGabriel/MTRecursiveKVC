@@ -22,7 +22,6 @@
 		5028584E16A20681007D6980 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582816A20681007D6980 /* UIKit.framework */; };
 		5028584F16A20681007D6980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582A16A20681007D6980 /* Foundation.framework */; };
 		5028585716A20681007D6980 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5028585516A20681007D6980 /* InfoPlist.strings */; };
-		5028585A16A20681007D6980 /* MTRecursiveKVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028585916A20681007D6980 /* MTRecursiveKVCTests.m */; };
 		5028587516A209CE007D6980 /* NSObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587416A209CE007D6980 /* NSObjectTests.m */; };
 		5028587816A20E34007D6980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587716A20E34007D6980 /* Person.m */; };
 		5028587916A20E34007D6980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587716A20E34007D6980 /* Person.m */; };
@@ -66,8 +65,6 @@
 		5028584C16A20681007D6980 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5028585416A20681007D6980 /* MTRecursiveKVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTRecursiveKVCTests-Info.plist"; sourceTree = "<group>"; };
 		5028585616A20681007D6980 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5028585816A20681007D6980 /* MTRecursiveKVCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRecursiveKVCTests.h; sourceTree = "<group>"; };
-		5028585916A20681007D6980 /* MTRecursiveKVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRecursiveKVCTests.m; sourceTree = "<group>"; };
 		5028587416A209CE007D6980 /* NSObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectTests.m; sourceTree = "<group>"; };
 		5028587616A20E34007D6980 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		5028587716A20E34007D6980 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
@@ -169,8 +166,6 @@
 		5028585216A20681007D6980 /* MTRecursiveKVCTests */ = {
 			isa = PBXGroup;
 			children = (
-				5028585816A20681007D6980 /* MTRecursiveKVCTests.h */,
-				5028585916A20681007D6980 /* MTRecursiveKVCTests.m */,
 				5028587416A209CE007D6980 /* NSObjectTests.m */,
 				5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */,
 				5028585316A20681007D6980 /* Supporting Files */,
@@ -336,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5028585A16A20681007D6980 /* MTRecursiveKVCTests.m in Sources */,
 				5028587516A209CE007D6980 /* NSObjectTests.m in Sources */,
 				5028587916A20E34007D6980 /* Person.m in Sources */,
 				5028588016A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */,
