@@ -23,6 +23,15 @@
 		5028584F16A20681007D6980 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5028582A16A20681007D6980 /* Foundation.framework */; };
 		5028585716A20681007D6980 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5028585516A20681007D6980 /* InfoPlist.strings */; };
 		5028585A16A20681007D6980 /* MTRecursiveKVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028585916A20681007D6980 /* MTRecursiveKVCTests.m */; };
+		5028587516A209CE007D6980 /* NSObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587416A209CE007D6980 /* NSObjectTests.m */; };
+		5028587816A20E34007D6980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587716A20E34007D6980 /* Person.m */; };
+		5028587916A20E34007D6980 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587716A20E34007D6980 /* Person.m */; };
+		5028587F16A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587C16A20F87007D6980 /* NSObject+RecursiveKVC.m */; };
+		5028588016A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587C16A20F87007D6980 /* NSObject+RecursiveKVC.m */; };
+		5028588116A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */; };
+		5028588216A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */; };
+		5028588616A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */; };
+		7BF3BB65233B4079BD49970A /* libPods-MTRecursiveKVCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E00B64F24545058BD9D379 /* libPods-MTRecursiveKVCTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BD6EEE769424AF1A9107DF2 /* Pods-MTRecursiveKVCTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTRecursiveKVCTests.xcconfig"; path = "Pods/Pods-MTRecursiveKVCTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		5028582416A20681007D6980 /* MTRecursiveKVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRecursiveKVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5028582816A20681007D6980 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5028582A16A20681007D6980 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +68,15 @@
 		5028585616A20681007D6980 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5028585816A20681007D6980 /* MTRecursiveKVCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRecursiveKVCTests.h; sourceTree = "<group>"; };
 		5028585916A20681007D6980 /* MTRecursiveKVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRecursiveKVCTests.m; sourceTree = "<group>"; };
+		5028587416A209CE007D6980 /* NSObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectTests.m; sourceTree = "<group>"; };
+		5028587616A20E34007D6980 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5028587716A20E34007D6980 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5028587B16A20F87007D6980 /* NSObject+RecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RecursiveKVC.h"; sourceTree = "<group>"; };
+		5028587C16A20F87007D6980 /* NSObject+RecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RecursiveKVC.m"; sourceTree = "<group>"; };
+		5028587D16A20F87007D6980 /* NSArray+RecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RecursiveKVC.h"; sourceTree = "<group>"; };
+		5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RecursiveKVC.m"; sourceTree = "<group>"; };
+		5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayRecursiveKVCSpecs.m; sourceTree = "<group>"; };
+		66E00B64F24545058BD9D379 /* libPods-MTRecursiveKVCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTRecursiveKVCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +97,7 @@
 				5028584D16A20681007D6980 /* SenTestingKit.framework in Frameworks */,
 				5028584E16A20681007D6980 /* UIKit.framework in Frameworks */,
 				5028584F16A20681007D6980 /* Foundation.framework in Frameworks */,
+				7BF3BB65233B4079BD49970A /* libPods-MTRecursiveKVCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +111,7 @@
 				5028585216A20681007D6980 /* MTRecursiveKVCTests */,
 				5028582716A20681007D6980 /* Frameworks */,
 				5028582516A20681007D6980 /* Products */,
+				2BD6EEE769424AF1A9107DF2 /* Pods-MTRecursiveKVCTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +131,7 @@
 				5028582A16A20681007D6980 /* Foundation.framework */,
 				5028582C16A20681007D6980 /* CoreGraphics.framework */,
 				5028584C16A20681007D6980 /* SenTestingKit.framework */,
+				66E00B64F24545058BD9D379 /* libPods-MTRecursiveKVCTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,11 +139,14 @@
 		5028582E16A20681007D6980 /* MTRecursiveKVC */ = {
 			isa = PBXGroup;
 			children = (
+				5028587A16A20F76007D6980 /* RecursiveKVC */,
 				5028583716A20681007D6980 /* AppDelegate.h */,
 				5028583816A20681007D6980 /* AppDelegate.m */,
 				5028584016A20681007D6980 /* MainStoryboard.storyboard */,
 				5028584316A20681007D6980 /* ViewController.h */,
 				5028584416A20681007D6980 /* ViewController.m */,
+				5028587616A20E34007D6980 /* Person.h */,
+				5028587716A20E34007D6980 /* Person.m */,
 				5028582F16A20681007D6980 /* Supporting Files */,
 			);
 			path = MTRecursiveKVC;
@@ -146,6 +171,8 @@
 			children = (
 				5028585816A20681007D6980 /* MTRecursiveKVCTests.h */,
 				5028585916A20681007D6980 /* MTRecursiveKVCTests.m */,
+				5028587416A209CE007D6980 /* NSObjectTests.m */,
+				5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */,
 				5028585316A20681007D6980 /* Supporting Files */,
 			);
 			path = MTRecursiveKVCTests;
@@ -158,6 +185,17 @@
 				5028585516A20681007D6980 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5028587A16A20F76007D6980 /* RecursiveKVC */ = {
+			isa = PBXGroup;
+			children = (
+				5028587B16A20F87007D6980 /* NSObject+RecursiveKVC.h */,
+				5028587C16A20F87007D6980 /* NSObject+RecursiveKVC.m */,
+				5028587D16A20F87007D6980 /* NSArray+RecursiveKVC.h */,
+				5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */,
+			);
+			name = RecursiveKVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +226,7 @@
 				5028584716A20681007D6980 /* Frameworks */,
 				5028584816A20681007D6980 /* Resources */,
 				5028584916A20681007D6980 /* ShellScript */,
+				FB76900CC1DE4E2394EF74AF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +302,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		FB76900CC1DE4E2394EF74AF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MTRecursiveKVCTests-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +326,9 @@
 				5028583516A20681007D6980 /* main.m in Sources */,
 				5028583916A20681007D6980 /* AppDelegate.m in Sources */,
 				5028584516A20681007D6980 /* ViewController.m in Sources */,
+				5028587816A20E34007D6980 /* Person.m in Sources */,
+				5028587F16A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */,
+				5028588116A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5028585A16A20681007D6980 /* MTRecursiveKVCTests.m in Sources */,
+				5028587516A209CE007D6980 /* NSObjectTests.m in Sources */,
+				5028587916A20E34007D6980 /* Person.m in Sources */,
+				5028588016A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */,
+				5028588216A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */,
+				5028588616A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +457,7 @@
 		};
 		5028586116A20681007D6980 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD6EEE769424AF1A9107DF2 /* Pods-MTRecursiveKVCTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTRecursiveKVC.app/MTRecursiveKVC";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -413,6 +475,7 @@
 		};
 		5028586216A20681007D6980 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD6EEE769424AF1A9107DF2 /* Pods-MTRecursiveKVCTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTRecursiveKVC.app/MTRecursiveKVC";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -447,6 +510,7 @@
 				5028585F16A20681007D6980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5028586016A20681007D6980 /* Build configuration list for PBXNativeTarget "MTRecursiveKVCTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +519,7 @@
 				5028586216A20681007D6980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
