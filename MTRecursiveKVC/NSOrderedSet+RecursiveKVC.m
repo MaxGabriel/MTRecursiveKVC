@@ -16,10 +16,10 @@
     return [super recursiveValueForKey:key];
 }
 
-- (void)RKCVrecursiveValueForKey:(NSString *)key progress:(NSMutableArray *)progress
+- (void)MTrecursiveValueForKey:(NSString *)key progress:(NSMutableArray *)progress
 {
     for (id obj in self) {
-        [obj RKCVrecursiveValueForKey:key progress:progress];
+        [obj MTrecursiveValueForKey:key progress:progress];
     }
 }
 

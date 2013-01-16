@@ -13,15 +13,15 @@
 - (NSArray *)recursiveValueForKey:(NSString *)key
 {
     NSMutableArray *progress = [NSMutableArray array];
-    [[self valueForKey:key] RKCVrecursiveValueForKey:key progress:progress];
+    [[self valueForKey:key] MTrecursiveValueForKey:key progress:progress];
     return progress;
 }
 
-- (void)RKCVrecursiveValueForKey:(NSString *)key progress:(NSMutableArray *)progress
+- (void)MTrecursiveValueForKey:(NSString *)key progress:(NSMutableArray *)progress
 {
     if ([self valueForKey:key]) {
         [progress addObject:self];
-        [[self valueForKey:key] RKCVrecursiveValueForKey:key progress:progress];
+        [[self valueForKey:key] MTrecursiveValueForKey:key progress:progress];
     } else {
         [progress addObject:self];
     }
