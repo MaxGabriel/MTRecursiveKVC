@@ -8,12 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM( NSUInteger, ParentCollectionType ) {
+    ParentCollectionTypeArray,
+    ParentCollectionTypeSet,
+    ParentCollectionTypeOrderedSet,
+};
+
 @interface Person : NSObject
 
 @property (nonatomic, strong) Person *father;
 @property (nonatomic, strong, readonly) NSString *name;
 
 @property (nonatomic, strong) NSArray *parents;
+@property (nonatomic) ParentCollectionType collectionType;
 
 - (Person *)initWithName:(NSString *)name;
 

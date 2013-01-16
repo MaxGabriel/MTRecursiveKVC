@@ -1,8 +1,8 @@
 //
-//  NSArrayRecursiveKVCSpecs.m
+//  NSSetRecursiveKVCSpecs.m
 //  MTRecursiveKVC
 //
-//  Created by Maximilian Tagher on 1/13/13.
+//  Created by Maximilian Tagher on 1/14/13.
 //  Copyright 2013 Max. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 #import "NSObject+RecursiveKVC.h"
 
 
-SPEC_BEGIN(NSArrayRecursiveKVCSpecs)
+SPEC_BEGIN(NSSetRecursiveKVCSpecs)
 
 describe(@"On an NSArray", ^{
     
@@ -30,7 +30,7 @@ describe(@"On an NSArray", ^{
         NSArray *people = @[root, a1, a2, b1, b2];
         
         for (Person *person in people) {
-            person.collectionType = ParentCollectionTypeArray;
+            person.collectionType = ParentCollectionTypeSet;
         }
     });
     

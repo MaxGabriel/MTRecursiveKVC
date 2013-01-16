@@ -30,6 +30,12 @@
 		5028588116A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */; };
 		5028588216A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */; };
 		5028588616A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */; };
+		504D5F0E16A522C2000FD7DF /* NSSet+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D5F0D16A522C2000FD7DF /* NSSet+RecursiveKVC.m */; };
+		504D5F0F16A522C2000FD7DF /* NSSet+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D5F0D16A522C2000FD7DF /* NSSet+RecursiveKVC.m */; };
+		504D5F1416A5236F000FD7DF /* NSSetRecursiveKVCSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 504D5F1316A5236F000FD7DF /* NSSetRecursiveKVCSpecs.m */; };
+		50D9F6C016A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D9F6BF16A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m */; };
+		50D9F6C116A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D9F6BF16A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m */; };
+		50D9F6D216A5540500B108EA /* NSOrderedSetRecursiveKCVSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D9F6D116A5540500B108EA /* NSOrderedSetRecursiveKCVSpecs.m */; };
 		7BF3BB65233B4079BD49970A /* libPods-MTRecursiveKVCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E00B64F24545058BD9D379 /* libPods-MTRecursiveKVCTests.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +79,12 @@
 		5028587D16A20F87007D6980 /* NSArray+RecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RecursiveKVC.h"; sourceTree = "<group>"; };
 		5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RecursiveKVC.m"; sourceTree = "<group>"; };
 		5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayRecursiveKVCSpecs.m; sourceTree = "<group>"; };
+		504D5F0C16A522C2000FD7DF /* NSSet+RecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RecursiveKVC.h"; sourceTree = "<group>"; };
+		504D5F0D16A522C2000FD7DF /* NSSet+RecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RecursiveKVC.m"; sourceTree = "<group>"; };
+		504D5F1316A5236F000FD7DF /* NSSetRecursiveKVCSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetRecursiveKVCSpecs.m; sourceTree = "<group>"; };
+		50D9F6BE16A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+RecursiveKVC.h"; sourceTree = "<group>"; };
+		50D9F6BF16A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+RecursiveKVC.m"; sourceTree = "<group>"; };
+		50D9F6D116A5540500B108EA /* NSOrderedSetRecursiveKCVSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOrderedSetRecursiveKCVSpecs.m; sourceTree = "<group>"; };
 		66E00B64F24545058BD9D379 /* libPods-MTRecursiveKVCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTRecursiveKVCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -168,6 +180,8 @@
 			children = (
 				5028587416A209CE007D6980 /* NSObjectTests.m */,
 				5028588516A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m */,
+				504D5F1316A5236F000FD7DF /* NSSetRecursiveKVCSpecs.m */,
+				50D9F6D116A5540500B108EA /* NSOrderedSetRecursiveKCVSpecs.m */,
 				5028585316A20681007D6980 /* Supporting Files */,
 			);
 			path = MTRecursiveKVCTests;
@@ -189,6 +203,10 @@
 				5028587C16A20F87007D6980 /* NSObject+RecursiveKVC.m */,
 				5028587D16A20F87007D6980 /* NSArray+RecursiveKVC.h */,
 				5028587E16A20F87007D6980 /* NSArray+RecursiveKVC.m */,
+				504D5F0C16A522C2000FD7DF /* NSSet+RecursiveKVC.h */,
+				504D5F0D16A522C2000FD7DF /* NSSet+RecursiveKVC.m */,
+				50D9F6BE16A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.h */,
+				50D9F6BF16A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m */,
 			);
 			name = RecursiveKVC;
 			sourceTree = "<group>";
@@ -324,6 +342,8 @@
 				5028587816A20E34007D6980 /* Person.m in Sources */,
 				5028587F16A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */,
 				5028588116A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */,
+				504D5F0E16A522C2000FD7DF /* NSSet+RecursiveKVC.m in Sources */,
+				50D9F6C016A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +356,10 @@
 				5028588016A20F87007D6980 /* NSObject+RecursiveKVC.m in Sources */,
 				5028588216A20F87007D6980 /* NSArray+RecursiveKVC.m in Sources */,
 				5028588616A342E1007D6980 /* NSArrayRecursiveKVCSpecs.m in Sources */,
+				504D5F0F16A522C2000FD7DF /* NSSet+RecursiveKVC.m in Sources */,
+				504D5F1416A5236F000FD7DF /* NSSetRecursiveKVCSpecs.m in Sources */,
+				50D9F6C116A52F6F00B108EA /* NSOrderedSet+RecursiveKVC.m in Sources */,
+				50D9F6D216A5540500B108EA /* NSOrderedSetRecursiveKCVSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "NSObject+RecursiveKVC.h"
 
 @interface ViewController ()
 
@@ -17,7 +19,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *root = [[UIView alloc] initWithFrame:CGRectZero];
+    UIView *a1 = [[UIView alloc] initWithFrame:CGRectZero];
+    a1.tag = 1;
+    UIView *a2 = [[UIView alloc] initWithFrame:CGRectZero];
+    a2.tag = 2;
+    UIView *b2 = [[UIView alloc] initWithFrame:CGRectZero];
+    b2.tag = 3;
+    
+    [self.view addSubview:root];
+    [root addSubview:a1];
+    [root addSubview:a2];
+    [a2 addSubview:b2];
+    
+    NSArray *test = [root recursiveValueForKey:@"subviews"];
+    NSLog(@"Test = %@",test);
     
 }
 
