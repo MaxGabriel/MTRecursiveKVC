@@ -7,8 +7,14 @@
 //
 
 #import "NSOrderedSet+RecursiveKVC.h"
+#import "NSObject+RecursiveKVC.h"
 
 @implementation NSOrderedSet (RecursiveKVC)
+
+- (NSArray *)recursiveValueForKey:(NSString *)key
+{
+    return [super recursiveValueForKey:key];
+}
 
 - (void)RKCVrecursiveValueForKey:(NSString *)key progress:(NSMutableArray *)progress
 {

@@ -34,7 +34,7 @@
     [a2 addSubview:b2];
     
     NSArray *test = [root recursiveValueForKey:@"subviews"];
-    NSLog(@"Test = %@",test);
+    NSLog(@"The complete set of subviews = %@",test);
     
 }
 

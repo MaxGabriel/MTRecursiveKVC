@@ -11,6 +11,11 @@
 
 @implementation NSSet (RecursiveKVC)
 
+- (NSArray *)recursiveValueForKey:(NSString *)key
+{
+    return [super recursiveValueForKey:key];
+}
+
 - (void)RKCVrecursiveValueForKey:(NSString *)key progress:(NSMutableArray *)progress
 {
     for (id obj in self) {
