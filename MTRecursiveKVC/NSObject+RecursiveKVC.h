@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/** Adds recursive lookup to traditional Key-Value Coding  */
 @interface NSObject (RecursiveKVC)
 
 /** Returns the result of recursively invoking `valueForKey:` on each returned object until it reaches a `nil` value.

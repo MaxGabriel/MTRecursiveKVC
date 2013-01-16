@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/** Adds recursive lookup to traditional Key-Value Coding  */
 @interface NSArray (RecursiveKVC)
 
 /** Returns an array containing the results of invoking `recursiveValueForKey:` using `key` on each of the array's objects. 
