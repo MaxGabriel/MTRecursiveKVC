@@ -11,7 +11,7 @@ NSArray *superviewChain = [view recursiveValueForKey:@"superview"];
 Like the traditional `valueForKey:` method, when used on collection classes (`NSArray`, `NSSet`, and `NSOrderedSet`) it applies the method to each of the objects inside the collection.
 ```objc
 NSArray *allSubviews = [view recursiveValueForKey:@"subviews"]; 
-// Returns all the subviews of a view, and all their subviews, and all their subviews, etc. 
+// Returns all the subviews of a view, and all their subviews, and all their subviews, etc. in a flat array
 ```
     
 Practical Usage Example
