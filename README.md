@@ -33,7 +33,7 @@ When a `UITableViewCell` is highlighted, it attempts to highlight all of its sub
             }
         }
     } else {
-        [super setHighlighted:highlighted animated:(BOOL)animated];
+        [super setHighlighted:highlighted animated:animated];
     }
 }
 ```
